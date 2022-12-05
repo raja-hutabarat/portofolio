@@ -1,8 +1,8 @@
 on: push
-name: 🚀 Deploy:Porto-Donni
+name: 🚀 Deploy:Porto-Raja
 jobs:
   web-deploy:
-    if: ${{ github.ref == 'refs/heads/master' }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     name: 🎉 Deploying...
     runs-on: ubuntu-latest
     steps:
@@ -52,7 +52,7 @@ jobs:
       - name: 💾 Sync files to Hosting 📡
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ftp.jefriherditriyanto.com
+          # server: ftp.jefriherditriyanto.com
           username: ${{ secrets.ftp_email }}
           password: ${{ secrets.ftp_password }}
           exclude: |

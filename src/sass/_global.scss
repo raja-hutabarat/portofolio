@@ -1,0 +1,42 @@
+body {
+  font-family: $mainFont;
+  letter-spacing: 1px;
+  background-color: $bgColor;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $colorPrimary;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+pre {
+  padding: 1rem;
+  background-color: #0e1e25;
+  border-radius: 3px;
+  margin: 0.75rem 0;
+  code {
+    color: rgb(214, 223, 169);
+    font-size: 1rem;
+  }
+}

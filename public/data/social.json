@@ -1,0 +1,16 @@
+[{
+        "id": 1,
+        "link": "https://instagram.com/donnimuhaedy",
+        "fa": "fa fa-brands fa-instagram"
+    },
+    {
+        "id": 2,
+        "link": "https://www.linkedin.com/in/donni-muhaedi-960559160",
+        "fa": "fa fa-brands fa-linkedin"
+    },
+    {
+        "id": 3,
+        "link": "https://github.com/donnimuhaedy",
+        "fa": "fa fa-brands fa-github"
+    }
+]

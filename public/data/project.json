@@ -1,0 +1,164 @@
+[{
+        "id": 3,
+        "title": "Permata Mobile X",
+        "intro": "Permata Mobile banking X is a revamp of a permata mobile banking from permata Bank.",
+        "body": "\n\nIn this project I wanted to learn how to make apps using Swift. Instead of inventing an app, I wanted to try and see how hard would it be to implement API into an iOS app.",
+        "slug": "permata-mobile",
+        "previewUrl": "https://play.google.com/store/search?q=permata+mobile+banking+x&c=apps",
+        "sourceUrl": "https://www.apple.com/id/app-store/",
+        "thumbnail": {
+            "url": "/uploads/BankPermataIcon3.jpeg"
+        },
+        "tags": [{
+                "id": 1,
+                "title": "QA TESTER"
+            },
+            {
+                "id": 2,
+                "title": "ANDROID"
+            },
+            {
+                "id": 3,
+                "title": "IOS"
+            }
+        ],
+        "techStack": [{
+                "id": 1,
+                "name": "MANUAL TESTING"
+            },
+            {
+                "id": 2,
+                "name": "MS OFFICE"
+            },
+            {
+                "id": 3,
+                "name": "SPREADSHEET"
+            },
+            {
+                "id": 4,
+                "name": "KATALON"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "New Victoria Mobile Banking",
+        "intro": "New Victoria Mobile Banking is a renew of a victoria mobile banking from Victoria Bank.",
+        "body": "\n\nIn this project I'm using framer motion to create parallax effects and a little animation. With clean look design and is responsive on mobile and tablet screen.",
+        "slug": "victoria-mobile",
+        "previewUrl": "https://play.google.com/store/search?q=victoria+mobile+banking&c=apps",
+        "sourceUrl": "https://www.apple.com/id/app-store/",
+        "thumbnail": {
+            "url": "/uploads/BankVictoriaIcon5.jpeg"
+        },
+        "tags": [{
+                "id": 1,
+                "title": "QA TESTER"
+            },
+            {
+                "id": 2,
+                "title": "ANDROID"
+            },
+            {
+                "id": 3,
+                "title": "IOS"
+            }
+        ],
+        "techStack": [{
+                "id": 1,
+                "name": "MANUAL TESTING"
+            },
+            {
+                "id": 2,
+                "name": "MS OFFICE"
+            },
+            {
+                "id": 3,
+                "name": "SPEADSHEET"
+            }
+        ]
+    }, {
+        "id": 2,
+        "title": "New BTN Mobile Banking",
+        "intro": "New BTN Mobile Banking is a renew of a BTN mobile banking from BTN Bank.",
+        "body": "\n\nIn this project I'm using framer motion to create parallax effects and a little animation. With clean look design and is responsive on mobile and tablet screen.",
+        "slug": "btn-mobile",
+        "previewUrl": "https://play.google.com/store/search?q=btn%20mobile%20banking&c=apps",
+        "sourceUrl": "https://www.apple.com/id/app-store/",
+        "thumbnail": {
+            "url": "/uploads/BankBtnIcon.png"
+        },
+        "tags": [{
+                "id": 1,
+                "title": "QA TESTER"
+            },
+            {
+                "id": 2,
+                "title": "ANDROID"
+            },
+            {
+                "id": 3,
+                "title": "IOS"
+            }
+        ],
+        "techStack": [{
+                "id": 1,
+                "name": "MANUAL TESTING"
+            },
+            {
+                "id": 2,
+                "name": "MS OFFICE"
+            },
+            {
+                "id": 3,
+                "name": "SPREADSHEET"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "My Personal Website",
+        "intro": "Fully responsive website build using React for my personal uses.",
+        "body": "\nWhenever I want to share my work, thoughts, tutorial or anything to the world, this website can be my medium to achieve that goals.",
+        "slug": "my-personal-app",
+        "previewUrl": "",
+        "sourceUrl": "",
+        "thumbnail": {
+            "url": "/uploads/donni.jpeg"
+        },
+        "tags": [{
+                "id": 1,
+                "title": "WEB DEVELOPMENT"
+            },
+            {
+                "id": 2,
+                "title": "REACT"
+            },
+            {
+                "id": 3,
+                "title": "UI DESIGN"
+            }
+        ],
+        "techStack": [{
+                "id": 1,
+                "name": "REACT"
+            },
+            {
+                "id": 2,
+                "name": "CSS GRID & FLEXBOX"
+            },
+            {
+                "id": 3,
+                "name": "FRAMER MOTION"
+            },
+            {
+                "id": 4,
+                "name": "REACT ROUTER"
+            },
+            {
+                "id": 5,
+                "name": "STRAPI"
+            }
+        ]
+    }
+]

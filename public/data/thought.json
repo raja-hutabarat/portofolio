@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Easiest Way to Deploy Your create-react-app to Netlify",
+    "body": "Deploying react apps can be so frustrating sometimes. Setting up a domain and hosting your web and static files seems like a complicated task for a beginner developer. But  now you can get a React project up and running easily using Netlify.\n\nOpen your terminal on your project directory then run:\n\n```\nnpm install netlify-cli -g\n```\n\n```\nnpm run build\n```\n\n```\nnetlify deploy --prod\n```\n\nNext you will be asked to select your build directory and create unique url to host your react app. Wait until the upload process finished and your production build of react app is ready to go!",
+    "slug": "easiest-way-to-deploy-your-create-react-app-to-netlify",
+    "published_at": "2021-05-11T12:53:47.503Z",
+    "created_at": "2021-05-11T12:53:41.021Z",
+    "updated_at": "2021-05-16T20:26:25.785Z",
+    "imageUrl": "/uploads/thought/easiest_way.jpg",
+    "categories": []
+  },
+  {
+    "id": 2,
+    "title": "Hidup di Mars Itu Hampir Mustahil, Gimana Rencana NASA Biar Manusia Bisa Tinggal di Mars?",
+    "body": "NASA bilang kalo manusia akan menjejakkan kaki di mars pada pertengahan tahun 2030. Masalahnya kita kesana bukan cuma *landing*, tancap bendera terus pulang, tapi gimana caranya manusia bisa *survive* dengan jangka waktu yang lama di permukaan martian. Elon Musk yakin kalo bakal ada satu juta penduduk bumi pindah ke mars di pertengahan abad ini.\n\nSeperti yang diketahui kebanyakan orang, mars itu cuma planet dengan tanah kering ngga ada kehidupan. **BUT,** faktanya Mars itu dulu termasuk planet yang “basah”, karena dia punya *liquid water* di permukaannya. Dan sekarang ilmuwan yakin kalo mars masih nyimpan kandungan air jauh di dalam permukaannya. Kalo itu masih kurang mars juga punya cadangan air dalam bentuk padat atau biasa di sebut es **ehm* di bagian kutubnya.\n\nOke sekarang anggap aja kita punya roket khusus yang bisa bawa lo langsung sampe ke permukaan mars. Masalah pertama pada saat lo sampe di sana adalah atmosfer, karena atmosfer di mars itu 100 kali lebih tipis dibanding bumi. Terus apa pengaruhnya? Jadi gini, atmosfer permukaan itu mempengaruhi titik didih air. Kalo di atmosfer bumi titik didih air itu ada di kisaran 100°C. Nah kalo di mars karena lapisan atmosfernya lebih tipis, air disana itu bisa mendidih dengan suhu cuman 0°C. Kebayang kan kalo di bumi air nya beku tapi kalo di mars dengan suhu yang sama air malah mendidih. \n\nSekarang bayangin, suhu normal tubuh manusia itu ada di kisaran 36°C, dan yup seperti yang lo tau, sebagian besar tubuh manusia adalah air. Jadi ketika manusia sampe di mars yang pertama kali terjadi adalah kandungan air yang ada di dalam tubuh lo bisa langsung mendidih seketika *Yaiks.\n\nSuhu permukaan di mars itu bervariasi antara -140°C sampe 30°C. Jadi kalo lo berdiri di sana kemungkinannya adalah badan lo akan beku karena suhunya dan darah lu bisa mendidih seketika. Oh iya jumlah oksigen disana juga ngga cukup buat lo bernafas secara normal. Solusinya? ***enclosed environment and SPACE SUITS!***\n\nKalo lo pengen hidup di mars, lo harus tinggal di area tertutup dan wajib bangedt pake pakaian khusus kalo mau jalan-jalan di luar. Selain melindungi tubuh dari hal yang tadi disebut, bangunan dan pakaian luar angkasa itu juga harus bisa melindungi lo dari paparan radiasi. Kalo ngga? *Say hello to cancer.*\n\nMars emang udah jadi cita cita umat manusia sejak dekade lalu. Emang ngga bakalan gampang tapi ngga mustahil juga. Mungkin kolonisasi di mars ngga akan terwujud di waktu dekat, tapi hal ini bisa jadi inspirasi buat generasi mendatang yang akan menjejakan kaki disana dan akhirnya *earthlings* bisa berubah jadi *multiplanetary species.*",
+    "slug": "hidup-di-mars-itu-hampir-mustahil",
+    "published_at": "2021-05-13T16:12:21.795Z",
+    "created_at": "2021-05-13T16:12:18.170Z",
+    "updated_at": "2021-05-17T06:51:27.632Z",
+    "imageUrl": "/uploads/thought/life_on_mars.jpg",
+    "categories": []
+  }
+]

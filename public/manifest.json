@@ -1,0 +1,9 @@
+{
+    "short_name": "Donni Muhaedi",
+    "name": "Donni Muhaedi Personal Site",
+    "icons": [],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#fbfbfb"
+}

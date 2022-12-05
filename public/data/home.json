@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "title": "Hi there! I'm Donni,",
+        "body": "I am a person who likes and has passion in the field of software quality assurance, I like challenges and enjoy working in a team. \n\n some of my skills are manual testing, test script creation, bug report, test result creation, ms office, and software automation (katalon). I hope I can help the company with my expertise. ",
+        "slug": "welcome-site",
+        "thumbnail": {
+            "url": "/uploads/view_paralayang.jpeg"
+        },
+        "sidelists": [
+            {
+            "id": 1,
+            "title": "Tools",
+            "items": [{
+                    "id": 1,
+                    "name": "Google Spreadsheet"
+                },
+                {
+                    "id": 2,
+                    "name": "MS Office"
+                },
+                {
+                    "id": 3,
+                    "name": "Katalon"
+                }
+            ]
+        }]
+    },
+    {
+        "id": 2,
+        "title": "QA Engineer.",
+        "body": "While I have dabbled in various testing platforms, I have landed on mobile testing and manual testing as my main expertise. I spend most of my time on manual mobile testing but I also enjoy working on web testing and automation testing.",
+        "slug": "QAengineer-and-beyond",
+        "thumbnail": {
+            "url": "/uploads/dashboard.jpeg"
+        },
+        "sidelists": [
+            {
+                "id": 1,
+                "title": "Manual Testing",
+                "items": [{
+                        "id": 1,
+                        "name": "TestScript Creation"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Bug Report Creation"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Test Result Creation"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Automation Testing",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Record Web Method"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Record Mobile Method"
+                    }
+                ]
+            }
+        ]
+    }
+]

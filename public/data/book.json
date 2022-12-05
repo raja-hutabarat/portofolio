@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "The Art of Thinking Clearly",
+    "link": "https://www.goodreads.com/book/show/16248196-the-art-of-thinking-clearly",
+    "author": "Rolf Dobelli",
+    "cover": {
+      "url": "/uploads/book/16248196_81599278fb.jpeg"
+    }
+  },
+  {
+    "id": 2,
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "link": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck",
+    "author": "Mark Manson",
+
+    "cover": {
+      "url": "/uploads/book/28257707_8ee9a7746b.jpeg"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Every Day",
+    "link": "https://www.goodreads.com/book/show/13262783-every-day",
+    "author": "David Levithan",
+    "cover": {
+      "url": "/uploads/book/13262783_397f6efd38.jpeg"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Filosofi Teras",
+    "link": "https://www.goodreads.com/book/show/42861019-filosofi-teras",
+    "author": "Henry Manampiring",
+    "cover": {
+      "url": "/uploads/book/42861019_SX_318_7b09776b43.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "title": "The Life-Changing Magic of Tidying Up",
+    "link": "https://www.goodreads.com/book/show/22318578-the-life-changing-magic-of-tidying-up",
+    "author": "Marie Kondo",
+    "cover": {
+      "url": "/uploads/book/22318578_3975d073ae.jpeg"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Of Mice and Men",
+    "link": "https://www.goodreads.com/book/show/890.Of_Mice_and_Men",
+    "author": "John Steinbeck",
+    "cover": {
+      "url": "/uploads/book/890_SX_318_dc50ef382e.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "title": "East of Eden",
+    "link": "https://www.goodreads.com/book/show/4406.East_of_Eden",
+    "author": "John Steinbeck",
+    "cover": {
+      "url": "/uploads/book/4406_304892c21c.jpeg"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Atomic Habits",
+    "link": "https://www.goodreads.com/book/show/40121378-atomic-habits",
+    "author": "James Clear",
+    "cover": {
+      "url": "/uploads/book/40121378_SY_475_b699e7f03e.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Thought Vibration",
+    "link": "https://www.goodreads.com/book/show/24375071-thought-vibration",
+    "author": "William Walker Atkinson",
+    "cover": {
+      "url": "/uploads/book/24375071_SX_318_903bf9066d.jpg"
+    }
+  },
+  {
+    "id": 10,
+    "title": "The Courage to Be Disliked",
+    "link": "https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked",
+    "author": "Ichiro Kishimi",
+    "cover": {
+      "url": "/uploads/book/43306206_SY_475_3827b17f83.jpg"
+    }
+  },
+  {
+    "id": 11,
+    "title": "The Daily Stoic",
+    "link": "https://www.goodreads.com/book/show/29093292-the-daily-stoic",
+    "author": "Ryan Holiday",
+    "cover": {
+      "url": "/uploads/book/29093292_07283bd4b5.jpeg"
+    }
+  }
+]

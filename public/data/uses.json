@@ -1,0 +1,98 @@
+[{
+        "id": 1,
+        "title": "Code Editor",
+        "items": [{
+                "id": 1,
+                "name": "Visual Studio Code"
+            },
+            {
+                "id": 2,
+                "name": "Monokai++ Theme"
+            },
+            {
+                "id": 3,
+                "name": "SF Mono Font"
+            },
+            {
+                "id": 4,
+                "name": "XCode"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Plugin & Extension",
+        "items": [{
+                "id": 1,
+                "name": "Live Sass Compiler"
+            },
+            {
+                "id": 2,
+                "name": "Prettier - Code formatter"
+            },
+            {
+                "id": 3,
+                "name": "Simple React Snippets"
+            },
+            {
+                "id": 4,
+                "name": "Live Server"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Software/Apps",
+        "items": [{
+                "id": 1,
+                "name": "Figma"
+            },
+            {
+                "id": 2,
+                "name": "Postman"
+            },
+            {
+                "id": 3,
+                "name": "Google Chrome"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Hosting",
+        "items": [{
+                "id": 1,
+                "name": "Niaga Hoster"
+            },
+            {
+                "id": 3,
+                "name": "Github Pages"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "This Site",
+        "items": [{
+                "id": 1,
+                "name": "React"
+            },
+            {
+                "id": 3,
+                "name": "Flexbox & CSS Grid"
+            },
+            {
+                "id": 4,
+                "name": "Headless CMS"
+            },
+            {
+                "id": 2,
+                "name": "SASS"
+            },
+            {
+                "id": 5,
+                "name": "Strapi"
+            }
+        ]
+    }
+]

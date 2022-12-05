@@ -1,0 +1,128 @@
+.Home {
+    padding-bottom: 6rem;
+}
+
+.Projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 1px solid $colorSecondary;
+        padding: 0.75rem;
+        img {
+            margin-bottom: 0.5rem;
+        }
+        .btn {
+            margin-right: 0.5rem;
+            margin-bottom: 3px;
+            margin-top: 3px;
+        }
+    }
+}
+
+.ProjectSingle {
+    padding-right: 3rem;
+    .grid {
+        column-gap: 1.5rem;
+    }
+    &-body {
+        p,
+        h1 {
+            grid-column: 1 / 4;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+    &-hero img {
+        grid-column: 1 / 5;
+    }
+    &-action {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.Thoughts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    .PostItem {
+        margin-bottom: 0;
+        &-hero img {
+            height: 15rem;
+        }
+        h1 {
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+            grid-column: 1 / 5;
+        }
+        &-sideList {
+            grid-row: 2 / 3;
+            grid-column: 1 / 5;
+            margin-left: 0;
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                opacity: 0.7;
+                margin-bottom: 0;
+            }
+        }
+        &-body div {
+            grid-column: 1 / 5;
+        }
+    }
+}
+
+.Bookshelf {
+    &-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    &-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid $colorSecondary;
+        border-right: 3px solid $colorPrimary;
+        padding: 5px 5px;
+        &-label {
+            grid-column: 2 / 4;
+            p {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.Uses {
+    &-title {
+        margin-bottom: 2rem;
+    }
+    &-item {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        ul {
+            padding-top: 0.25rem;
+        }
+        li {
+            margin: 0.4rem 0;
+        }
+        &:not(:last-child) {
+            border-bottom: 1px solid rgba($color: #aaa, $alpha: 0.3);
+        }
+    }
+}
+
+.Contact {
+    padding-bottom: 6rem;
+    .PostItem {
+        margin-bottom: 0;
+    }
+    &-item div {
+        grid-column: 1 / 4;
+    }
+    .fa {
+        padding: 0.4rem;
+        font-size: 1rem;
+    }
+}

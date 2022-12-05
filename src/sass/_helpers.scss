@@ -1,0 +1,132 @@
+.container {
+  margin-left: 30%;
+  margin-right: 3rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-between {
+    justify-content: space-between;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  &-gap {
+    column-gap: 1.5rem;
+  }
+}
+
+.sideList {
+  letter-spacing: 2px;
+
+  ul {
+    margin-bottom: 2rem;
+  }
+}
+
+.btn {
+  font-size: 0.675rem;
+  border: 1px solid $colorSecondary;
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 3px;
+  cursor: pointer;
+
+  &-lg {
+    padding: 1rem 1.5rem;
+  }
+
+  &-secondary {
+    background-color: $colorPrimary;
+    color: #fff;
+
+    .fa,
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.xl {
+  font-size: 2rem;
+}
+.lg {
+  font-size: 1.5rem;
+}
+.md {
+  font-size: 0.85rem;
+}
+.sm {
+  font-size: 0.7325rem;
+}
+.lead {
+  font-size: 1rem;
+}
+.bold {
+  font-weight: 700;
+}
+.x-thin {
+  font-weight: 300;
+}
+.thin {
+  font-weight: 400;
+}
+.text-secondary {
+  color: $colorSecondary;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-spacing {
+  letter-spacing: 2px;
+}
+
+@mixin py($amount) {
+  padding-top: $amount;
+  padding-bottom: $amount;
+}
+.py-1 {
+  @include py(0.5rem);
+}
+.py-2 {
+  @include py(1rem);
+}
+.py-3 {
+  @include py(2rem);
+}
+.py-4 {
+  @include py(3rem);
+}
+.py-5 {
+  @include py(5rem);
+}
+@mixin my($amount) {
+  margin-top: $amount;
+  margin-bottom: $amount;
+}
+.my-1 {
+  @include my(0.5rem);
+}
+.my-2 {
+  @include my(1rem);
+}
+.my-3 {
+  @include my(2rem);
+}
+.my-4 {
+  @include my(3rem);
+}
+.my-5 {
+  @include my(5rem);
+}
+.mr {
+  margin-right: 10%;
+}

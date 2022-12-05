@@ -1,0 +1,174 @@
+.NavBar {
+    position: fixed;
+    width: 12rem;
+    height: 100%;
+    text-align: right;
+    margin-left: 8%;
+    flex-direction: column;
+    align-items: flex-end;
+    border-right: 1px solid;
+    padding-right: 1.5rem;
+    box-shadow: 3px 0px 2px rgba($color: $colorSecondary, $alpha: 0.2);
+    &-logo {
+        font-size: 1.5rem;
+        pointer-events: none;
+    }
+    &-link {
+        position: relative;
+        transition: all 50ms ease-out;
+        &-hover {
+            height: 1px;
+            width: 100%;
+            background-color: $colorPrimary;
+            position: absolute;
+            left: 0;
+        }
+    }
+    &-link-blank {
+        height: 1rem;
+    }
+    &-social {
+        align-self: flex-end;
+        .fa {
+            color: $colorSecondary;
+            font-size: 1rem;
+            &:hover {
+                color: $colorPrimary;
+            }
+        }
+        ul {
+            justify-content: flex-end;
+            li {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+    nav {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.NavBarMobile {
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: 1px solid $colorSecondary;
+    display: none;
+    &-menu {
+        cursor: pointer;
+    }
+}
+
+.MobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    z-index: 99;
+    &.active {
+        left: 0%;
+        background-color: rgba($color: #000000, $alpha: 0.3);
+    }
+    nav {
+        background-color: $bgColor;
+        position: absolute;
+        right: 0;
+        width: 70%;
+        min-height: 100%;
+        padding: 1.5rem;
+    }
+    li,
+    &-close {
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+    }
+    &-close i {
+        cursor: pointer;
+        margin-bottom: 1rem;
+    }
+}
+
+.PostItem {
+    margin-bottom: 6rem;
+    h1 {
+        grid-column: 1 / 4;
+        line-height: 1.5;
+    }
+    &-hero img {
+        grid-column: 1 / 5;
+        height: 20rem;
+    }
+    &-body {
+        div {
+            grid-column: 1 / 4;
+            margin-bottom: 1.125rem;
+        }
+        p {
+            margin-bottom: 0.75rem;
+            font-size: 0.815rem;
+            line-height: 1.85;
+        }
+    }
+    &-sideList {
+        margin-left: 2rem;
+        ul {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.PostList {
+    &-title {
+        border-bottom: 1px solid $colorPrimary;
+    }
+    ul li:nth-child(n + 2) {
+        border-radius: 0px;
+        border-top: 1px solid rgba($color: #aaa, $alpha: 0.3);
+    }
+    ul {
+        h4 {
+            align-self: center;
+        }
+        h3 {
+            grid-column: 2 / 5;
+        }
+        a {
+            padding: 0.75rem 1rem;
+            border-radius: 5px;
+            &:hover {
+                background-color: rgba($color: #aaa, $alpha: 0.1);
+            }
+        }
+    }
+}
+
+.Home .PostItem-body p,
+.ThoughtSingle .PostItem-body p,
+.Contact p,
+.ProjectSingle-body p {
+    font-size: 0.925rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.Footer {
+    border-top: 1px solid $colorSecondary;
+    display: none;
+    &-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    &-social {
+        justify-content: flex-start;
+        .fa {
+            color: $colorSecondary;
+            margin-left: 1rem;
+            font-size: 1.2rem;
+            &:hover {
+                color: $colorPrimary;
+            }
+        }
+    }
+}
